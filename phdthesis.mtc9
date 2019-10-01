@@ -1,0 +1,26 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Introduction}{\reset@font\mtcSfont 89}{section.3.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}Presentation of the proposed concept}{\reset@font\mtcSfont 90}{section.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Definition of an hybrid propulsive chain}{\reset@font\mtcSfont 92}{section.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.1}Battery}{\reset@font\mtcSSfont 94}{subsection.3.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.2}Gas turbine and generator}{\reset@font\mtcSSfont 97}{subsection.3.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.3}Electric motor}{\reset@font\mtcSSfont 99}{subsection.3.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.4}Inverters and converters}{\reset@font\mtcSSfont 100}{subsection.3.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.5}Power management unit PMU}{\reset@font\mtcSSfont 101}{subsection.3.3.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.6}Cooling system}{\reset@font\mtcSSfont 101}{subsection.3.3.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.7}Cables}{\reset@font\mtcSSfont 102}{subsection.3.3.7}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.8}Ducted fan}{\reset@font\mtcSSfont 103}{subsection.3.3.8}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.9}Certification constraint module}{\reset@font\mtcSSfont 107}{subsection.3.3.9}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}Methodology for the sizing of hybrid aircraft}{\reset@font\mtcSfont 109}{section.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.1}MDA sizing loop}{\reset@font\mtcSSfont 109}{subsection.3.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.2}MDO formulation}{\reset@font\mtcSSfont 113}{subsection.3.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.5}Exploration of hybrid aircraft with distributed electric propulsion}{\reset@font\mtcSfont 115}{section.3.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.1}2035 technology assessment}{\reset@font\mtcSSfont 115}{subsection.3.5.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.5.1.1}Sensitivity analysis -- fixed battery case}{\reset@font\mtcSSSfont 117}{subsubsection.3.5.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.5.1.2}Sensitivity analysis -- battery resizing}{\reset@font\mtcSSSfont 119}{subsubsection.3.5.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.2}Sizing of aircraft with distributed electric propulsion}{\reset@font\mtcSSfont 123}{subsection.3.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.5.3}Optimisation of aircraft with distributed electric propulsion}{\reset@font\mtcSSfont 128}{subsection.3.5.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.5.3.1}Problem formulation}{\reset@font\mtcSSSfont 128}{subsubsection.3.5.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.5.3.2}Sensitivity analysis}{\reset@font\mtcSSSfont 129}{subsubsection.3.5.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.5.3.3}Mono-objective optimisation}{\reset@font\mtcSSSfont 133}{subsubsection.3.5.3.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.5.3.4}Pareto front with gradient information}{\reset@font\mtcSSSfont 139}{subsubsection.3.5.3.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.6}Conclusion}{\reset@font\mtcSfont 141}{section.3.6}}

@@ -1,0 +1,108 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {xchapter}{}{vii}{section*.2}
+\contentsline {xchapter}{}{ix}{chapter*.4}
+\contentsline {xchapter}{}{xiii}{chapter*.6}
+\contentsline {xchapter}{}{xxii}{chapter*.8}
+\contentsline {xchapter}{}{xxviii}{chapter*.10}
+\contentsline {xchapter}{}{1}{chapter*.11}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Advanced aircraft design process: a technology review}{5}{chapter.1}
+\contentsline {table}{\numberline {1.1}{\ignorespaces NASA ARMD Strategic Thrust table of objectives, for the subsonic transport aircraft~\cite {bib:nasa_armd}. Variation are intended with respect to 2005 best in class configuration.\relax }}{8}{table.caption.15}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Classification of electric propulsion architectures, based on the degree of hybridization.\relax }}{15}{table.caption.19}
+\contentsline {table}{\numberline {1.3}{\ignorespaces Decision matrix for the three BWB cabin concepts proposed in literature. Values are assigned as follow: +1 if there is a good improvement, 0 if it may be an issue, but not relevant and -1 if it introduces a penalty.\relax }}{28}{table.caption.31}
+\contentsline {table}{\numberline {1.4}{\ignorespaces Structural masses for different BWB concepts available in literature. Adapted from~\cite {bib:van_dommelen}.\relax }}{29}{table.caption.32}
+\contentsline {table}{\numberline {1.5}{\ignorespaces Comparison of performance for the different target distributions examinated in the work of Qin et al.~\cite {bib:qin}, related to a BWB configuration.\relax }}{32}{table.caption.35}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Development of an optimisation framework for conceptual aircraft design}{41}{chapter.2}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Input parameters to properly size each geometrical component, according to the formulation used in FAST~\cite {bib:airbus_notes}.\relax }}{49}{table.caption.43}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Mass breakdown standard, according to the French norm 2001/B~\cite {bib:mass_breakdown} and implemented in FAST.\relax }}{55}{table.caption.46}
+\contentsline {table}{\numberline {2.3}{\ignorespaces CATPOL~\cite {bib:catpol} and CS-25~\cite {bib:cs25} rules explanation, considered in the CCM module of FAST. $V_{z}$ represents vertical speed, meanwhile $\gamma _{\%}$ the gradient flight.\relax }}{60}{table.caption.50}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Top level requirements for the A320 CERAS validation case used in FAST.\relax }}{60}{table.caption.51}
+\contentsline {table}{\numberline {2.5}{\ignorespaces Geometrical inputs for the A320 CERAS validation case.\relax }}{60}{table.caption.52}
+\contentsline {table}{\numberline {2.6}{\ignorespaces Thrust rate definition for each mission segment for the A320 CERAS validation case.\relax }}{61}{table.caption.53}
+\contentsline {table}{\numberline {2.7}{\ignorespaces Comparison between the results obtained in FAST and the A320 CERAS data~\cite {bib:fast_main}.\relax }}{61}{table.caption.55}
+\contentsline {table}{\numberline {2.8}{\ignorespaces CCM results for the A320 CERAS validation case.\relax }}{63}{table.caption.56}
+\contentsline {table}{\numberline {2.9}{\ignorespaces Optimisation problem definition for the A320 CERAS case. Variables' limits come from literature review on single aisle type aircraft~\cite {bib:roskam_partII}.\relax }}{74}{table.caption.61}
+\contentsline {table}{\numberline {2.10}{\ignorespaces Set-up for the A320 CERAS optimisation problem, using gradient based method.\relax }}{74}{table.caption.62}
+\contentsline {table}{\numberline {2.11}{\ignorespaces Comparison between quantities of interest for the baseline and the optimised aircraft, A320 CERAS test case. Top level requirements are reported in Table~\ref {tab:fast_base_tlar}.\relax }}{75}{table.caption.63}
+\contentsline {table}{\numberline {2.12}{\ignorespaces Comparison between design variables for the A320 CERAS test case baseline and optimised. Geometric inputs for the baseline are in agreement with Table~\ref {tab:fast_base_geom_inp}.\relax }}{75}{table.caption.64}
+\contentsline {table}{\numberline {2.13}{\ignorespaces Objective function and norm constraints, defined as in Eq.~\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:sum_violation_constraint}\unskip \@@italiccorr )}}, for the 10 optimisation runs carried out for A320 CERAS test case baseline.\relax }}{76}{table.caption.65}
+\contentsline {table}{\numberline {2.14}{\ignorespaces Top level requirements for the resized A320, considering EIS2035.\relax }}{78}{table.caption.68}
+\contentsline {table}{\numberline {2.15}{\ignorespaces Impact of new technologies on airframe mass estimation according to IATA~\cite {bib:iata_annex}, considering EIS2035.\relax }}{78}{table.caption.69}
+\contentsline {table}{\numberline {2.16}{\ignorespaces Impact of new technologies on aerodynamics according to IATA~\cite {bib:iata_annex}, considering EIS2035.\relax }}{79}{table.caption.70}
+\contentsline {table}{\numberline {2.17}{\ignorespaces Quantities of interest for the A320 case baseline, resized to match EIS2035 with TLAR reported in Table~\ref {tab:a320_2035_tlar} and geometrical inputs as in Table~\ref {tab:fast_base_geom_inp}.\relax }}{81}{table.caption.72}
+\contentsline {table}{\numberline {2.18}{\ignorespaces Quantities of interest for the A320 case optimised, resized to match EIS2035 with TLAR reported in Table~\ref {tab:a320_2035_tlar}.\relax }}{82}{table.caption.73}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Design methodology and exploration of hybrid aircraft}{85}{chapter.3}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Top level requirements for the proposed TAW configuration featuring distributed electric propulsion, shown in Fig.~\ref {fig:aircraft_dep_concept}.\relax }}{91}{table.caption.78}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Design point for the gas turbine modeled in GSP.\relax }}{99}{table.caption.84}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Center of gravity location of the different electric components, belonging to the propulsive system shown in Fig.~\ref {fig:dep_scheme}.\relax }}{111}{table.caption.91}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Proposed addendum to mass breakdown standard~\cite {bib:mass_breakdown} to include electric components mass.\relax }}{112}{table.caption.93}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Design space exploration for technological parameters, in 2035 perspectives, according to bibliographic review. In bold the value with biggest uncertainty.\relax }}{116}{table.caption.95}
+\contentsline {table}{\numberline {3.6}{\ignorespaces Mean first order indices related to key parameters $m_e$, $E_c$ and $SoC_f$; in bold are marked the most relevant parameters. Fixed battery case.\relax }}{118}{table.caption.96}
+\contentsline {table}{\numberline {3.7}{\ignorespaces Coefficient of variation $\sigma ^\star $ of Sobol indices related to key parameters $m_e$, $E_c$ and $SoC_f$. Fixed battery case.\relax }}{119}{table.caption.97}
+\contentsline {table}{\numberline {3.8}{\ignorespaces Mean value and coefficient of variation of MSE on training set for key parameters considered. Fixed battery case.\relax }}{119}{table.caption.98}
+\contentsline {table}{\numberline {3.9}{\ignorespaces Mean first order indices related to key parameters $m_e$, $E_c$ and $\tau _{b}$; in bold are marked the most relevant parameters. Battery resizing case.\relax }}{121}{table.caption.100}
+\contentsline {table}{\numberline {3.10}{\ignorespaces Coefficient of variation $\sigma ^\star $ of Sobol indices related to key parameters $m_e$, $E_c$ and $\tau _{b}$. Battery resizing case.\relax }}{121}{table.caption.101}
+\contentsline {table}{\numberline {3.11}{\ignorespaces Mean value and coefficient of variation of MSE on training set for key parameters considered. Battery resizing case.\relax }}{122}{table.caption.102}
+\contentsline {table}{\numberline {3.12}{\ignorespaces Technological parameters chosen for the design of hybrid aircraft, EIS 2035.\relax }}{122}{table.caption.103}
+\contentsline {table}{\numberline {3.13}{\ignorespaces Propulsive system top level parameters for the hybrid aircraft with distributed propulsion performance evaluations.\relax }}{123}{table.caption.104}
+\contentsline {table}{\numberline {3.14}{\ignorespaces Mission profile definition for the hybrid aircraft case, through the battery and gasturbine power rates defined in Eq.~\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:power_rates}\unskip \@@italiccorr )}}.\relax }}{124}{table.caption.105}
+\contentsline {table}{\numberline {3.15}{\ignorespaces Kerosene properties~\cite {bib:edwards}.\relax }}{124}{table.caption.106}
+\contentsline {table}{\numberline {3.16}{\ignorespaces Quantities of interest for the hybrid aircraft with distributed electric ducted fan, associated to TLAR of Table~\ref {tab:tlar_aircraft_dep}, $N_{EM}$=32.\relax }}{126}{table.caption.110}
+\contentsline {table}{\numberline {3.17}{\ignorespaces Fuel breakdown for the R~=~900~nmi mission, comparison between the conventional and the hybrid aircraft.\relax }}{127}{table.caption.111}
+\contentsline {table}{\numberline {3.18}{\ignorespaces Optimisation problem definition for the hybrid aircraft with distributed propulsion case.\relax }}{130}{table.caption.113}
+\contentsline {table}{\numberline {3.19}{\ignorespaces First order Sobol indices mean value $\mathbf {\mu }$ key output variables with respect to inputs, hybrid distributed propulsion case. Most relevant parameters for each output are written in bold.\relax }}{131}{table.caption.114}
+\contentsline {table}{\numberline {3.20}{\ignorespaces First order Sobol indices coefficient of variation $\mathbf {\sigma ^*}$ for key output variables, with respect to inputs, hybrid distributed propulsion aircraft case. An asterisk identifies the case in which the mean value $\mathbf {\mu }$ is zero and $\mathbf {\sigma ^*}$ is replaced by convention with its variance $\mathbf {\sigma }$.\relax }}{131}{table.caption.115}
+\contentsline {table}{\numberline {3.21}{\ignorespaces Mean value $\mathbf {\mu }$ and coefficient of variation $\mathbf {\sigma ^*}$ of the relative MSE on validation set for the sensitivity analysis of Table~\ref {tab:hybrid_dep_sens_an_geom_sobol}.\relax }}{133}{table.caption.116}
+\contentsline {table}{\numberline {3.22}{\ignorespaces Quantities of interest for the optimised hybrid aircraft with distributed electric ducted fan, $N_{EM}$=16.\relax }}{136}{table.caption.120}
+\contentsline {table}{\numberline {3.23}{\ignorespaces Quantities of interest for the optimised hybrid aircraft with distributed electric ducted fan, $N_{EM}$=32.\relax }}{136}{table.caption.121}
+\contentsline {table}{\numberline {3.24}{\ignorespaces Quantities of interest for the optimised hybrid aircraft with distributed electric ducted fan, $N_{EM}$=48.\relax }}{137}{table.caption.122}
+\contentsline {table}{\numberline {3.25}{\ignorespaces Optimisation problem definition for the mission profile, hybrid aircraft case, $N_{EM}=32$, R~=~900~nmi.\relax }}{138}{table.caption.123}
+\contentsline {table}{\numberline {3.26}{\ignorespaces Comparison between the baseline and the optimised mission profile for the hybrid aircraft with distributed propulsion, $N_{EM}=32$, R~=~900~nmi.\relax }}{139}{table.caption.124}
+\contentsline {table}{\numberline {3.27}{\ignorespaces $\mathcal {L}_2$-norm calculation between the final objective function and design variables vector. The subscript identifies the method.\relax }}{141}{table.caption.127}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Design methodology and exploration of the Blended Wing-Body concept}{147}{chapter.4}
+\contentsline {table}{\numberline {4.1}{\ignorespaces TLAR and main parameters for the ISAE-Supaero and ONERA Blended Wing-Body reference geometry.\relax }}{153}{table.caption.133}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Set up of CFD RANS simulations in SU2 for the BWB reference geometry aerodynamics study.\relax }}{154}{table.caption.135}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Comparison of the slope $C_{L_{\alpha }}$ estimated by SU2, VSP and FAST. RANS simulation case, M=0.78 and h=35000~ft.\relax }}{156}{table.caption.138}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Comparison of the Oswald coefficient $e$, estimated by SU2, FAST and OpenVSP. RANS simulation case. M=0.78 and h=35000~ft.\relax }}{157}{table.caption.140}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Geometrical and aerodynamics coefficients for the BWB reference geometry, for longitudinal control surface purposes.\relax }}{160}{table.caption.144}
+\contentsline {table}{\numberline {4.6}{\ignorespaces $C_{L_{\delta _{e}}}$ and $C_{M_{\delta _{e}}}$ coefficients for the 6 configurations shown in Fig.~\ref {fig:bwb_elevon_configuration}. They are computed using VLM technique~\cite {bib:avl}.\relax }}{162}{table.caption.146}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Hinge moment coefficients to define the model of Eq.~\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:hinge_moment_coeff_model}\unskip \@@italiccorr )}} for the 6 different configurations shown in Fig.~\ref {fig:bwb_elevon_configuration}.\relax }}{162}{table.caption.147}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Aluminium alloy 7075 properties~\cite {bib:megson}.\relax }}{168}{table.caption.153}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Structural components thickness for the static analysis of BWB reference geometry, case of maximum load factor $n=2.5$.\relax }}{170}{table.caption.155}
+\contentsline {table}{\numberline {4.10}{\ignorespaces Comparison between the FEM analysis and the surrogate model for centerbody and outer wing, for the BWB reference geometry case. Aluminium alloy 7075 is used as material.\relax }}{171}{table.caption.157}
+\contentsline {table}{\numberline {4.11}{\ignorespaces Comparison between the FEM analysis and the surrogate model for centerbody and outer wing, for the BWB reference geometry case. CFRM material is used in the centerbody.\relax }}{171}{table.caption.158}
+\contentsline {table}{\numberline {4.12}{\ignorespaces Condition for the study of nacelle effect in MSES.\relax }}{172}{table.caption.160}
+\contentsline {table}{\numberline {4.13}{\ignorespaces Sum up of geometrical entries for the BWB parametrization.\relax }}{180}{table.caption.166}
+\contentsline {table}{\numberline {4.14}{\ignorespaces Boarding time for the BWB and the A320 reference aircraft with and without handbags, 150 passengers. Simulation carried out using PAXelerate~\cite {bib:schmidt_2016}.\relax }}{182}{table.caption.169}
+\contentsline {table}{\numberline {4.15}{\ignorespaces Geometrical inputs for the BWB with conventional propulsion sizing case.\relax }}{188}{table.caption.173}
+\contentsline {table}{\numberline {4.16}{\ignorespaces Comparison between the A320 resized to match EIS2035 and the BWB, with the TLAR reported in Table~\ref {tab:fast_base_tlar}.\relax }}{189}{table.caption.174}
+\contentsline {table}{\numberline {4.17}{\ignorespaces Optimisation problem definition for the BWB aircraft with distributed electric propulsion case.\relax }}{194}{table.caption.179}
+\contentsline {table}{\numberline {4.18}{\ignorespaces First order Sobol indices mean value $\mu $ for key output variables with respect to inputs, BWB with distributed electric propulsion case. Most relevant parameters for each output are written in bold.\relax }}{195}{table.caption.180}
+\contentsline {table}{\numberline {4.19}{\ignorespaces First order Sobol indices coefficient of variation $\sigma ^*$ for key output variables, with respect to inputs, BWB with distributed electric propulsion case. An asterisk identifies the case in which the mean value $\mu $ is zero and $\sigma ^*$ is replaced by convention with its variance $\sigma $.\relax }}{196}{table.caption.181}
+\contentsline {table}{\numberline {4.20}{\ignorespaces Mean value $\mu $ and coefficient of variation $\sigma ^*$ of the relative MSE on validation set for the sensitivity analysis of Table~\ref {tab:bwb_hybrid_dep_sens_an_geom_sobol}.\relax }}{197}{table.caption.182}
+\contentsline {table}{\numberline {4.21}{\ignorespaces Objective function and norm constraints, defined as in Eq.~\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:sum_violation_constraint}\unskip \@@italiccorr )}}, for the 10 optimisation runs carried out for the BWB with distributed electric propulsion, $N_{EM}=32$, R~=~900~nmi.\relax }}{198}{table.caption.183}
+\contentsline {table}{\numberline {4.22}{\ignorespaces Quantities of interest for the optimised BWB with distributed electric ducted fan, $N_{EM}=16$.\relax }}{200}{table.caption.187}
+\contentsline {table}{\numberline {4.23}{\ignorespaces Quantities of interest for the optimised BWB with distributed electric ducted fan, $N_{EM}=32$.\relax }}{201}{table.caption.188}
+\contentsline {table}{\numberline {4.24}{\ignorespaces Quantities of interest for the optimised BWB with distributed electric ducted fan, $N_{EM}=48$.\relax }}{201}{table.caption.189}
+\contentsline {table}{\numberline {4.25}{\ignorespaces Comparison between the two BWB with DEP optimisation problems, considering the CCM lower limit as specified in the CS-25~\cite {bib:cs25} and equals to the A320 2005 version, reported in Table~\ref {tab:fast_base_ccm}. $N_{EM}=32$, R~=~900~nmi case.\relax }}{203}{table.caption.191}
+\contentsline {table}{\numberline {4.26}{\ignorespaces $\mathcal {L}_2$-norm calculation between the final objective function and design variable vectors. The subscript identifies the method.\relax }}{205}{table.caption.194}
+\contentsline {table}{\numberline {4.27}{\ignorespaces Quantities of interest for the BWB with distributed electric ducted fan, power supplied by turbogenerators solely, $N_{EM}=16$.\relax }}{206}{table.caption.196}
+\contentsline {table}{\numberline {4.28}{\ignorespaces Quantities of interest for the BWB with distributed electric ducted fan, power supplied by turbogenerators solely, $N_{EM}=32$.\relax }}{207}{table.caption.197}
+\contentsline {table}{\numberline {4.29}{\ignorespaces Quantities of interest for the BWB with distributed electric ducted fan, power supplied by turbogenerators solely, $N_{EM}=48$.\relax }}{207}{table.caption.198}
+\contentsline {xchapter}{}{213}{chapter*.201}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Blended Wing-Body cabin design review}{245}{Appendix.1.A}
+\addvspace {10\p@ }
+\contentsline {xchapter}{FAST I/O file structure}{247}{Appendix.1.B}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Review of MDO architecture}{249}{Appendix.1.C}
+\contentsline {table}{\numberline {C.1}{\ignorespaces Mathematical notation for MDO problem formulations, given by Martins and Lambe~\cite {bib:martins_mdo}.\relax }}{252}{table.caption.208}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Polynomial Chaos Expansion method for global sensitivity analysis}{259}{Appendix.1.D}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Plot of sensitivity analysis results}{263}{Appendix.1.E}

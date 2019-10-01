@@ -1,0 +1,149 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {xchapter}{}{vii}{section*.2}
+\contentsline {xchapter}{}{ix}{chapter*.4}
+\contentsline {xchapter}{}{xiii}{chapter*.6}
+\contentsline {xchapter}{}{xxii}{chapter*.8}
+\contentsline {xchapter}{}{xxviii}{chapter*.10}
+\contentsline {xchapter}{}{1}{chapter*.11}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Advanced aircraft design process: a technology review}{5}{chapter.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Aviation environmental footprint perspectives according to NASA ARMD Strategic Thrust~\cite {bib:nasa_armd}.\relax }}{7}{figure.caption.13}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Percentage of CO\textsubscript {2} emission per type of aircraft~\cite {bib:he_aviation_course}.\relax }}{8}{figure.caption.14}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Example of possible configurations explored in the conceptual design of civil transport aircraft~\cite {bib:raymer_concept_design}.\relax }}{10}{figure.caption.16}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Preliminary design process, using the xDSM standard presented by Lambe and Martins~\cite {bib:lambe_xdsm}.\relax }}{11}{figure.caption.17}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Different electric propulsion architectures~\cite {bib:madavan}.\relax }}{15}{figure.caption.18}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Mass specific energy vs. volume specific energy for different energy storage systems~\cite {bib:hepperle}.\relax }}{16}{figure.caption.20}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Comparison between the Airbus A320 (right) and the new A320 Neo (left) mounting the innovative LEAP engine.\relax }}{18}{figure.caption.21}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces DRAGON concept, proposed by ONERA~\cite {bib:dragon}.\relax }}{19}{figure.caption.22}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces NASA SCEPTOR X-57 concept~\cite {bib:borer_sceptor}.\relax }}{20}{figure.caption.23}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces AMPERE concept, proposed by ONERA~\cite {bib:ampere_ref}.\relax }}{20}{figure.caption.24}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Illustration showing the difference in the engine sizing to meet the OEI condition for 2 and 4 motors~\cite {bib:steiner}.\relax }}{21}{figure.caption.25}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces STARC-ABL concept, proposed by NASA~\cite {bib:welstead_2016}.\relax }}{24}{figure.caption.26}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces CENTRELINE concept, proposed by the CENTRELINE European consortium~\cite {bib:seitz_2018}.\relax }}{24}{figure.caption.27}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Main milestones in the Blended Wing-Body concept.\relax }}{25}{figure.caption.28}
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Different load distributions due to pressurization in a circular (left) and non-circular (right) cabin.\relax }}{26}{figure.caption.29}
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Rendering of the BWB Ascent 1000, announced by DZYNE and expected to fly in next years~\cite {bib:dzyne_bwb}.\relax }}{27}{figure.caption.30}
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Blended Wing-Body cabin design, according to Bradley~\cite {bib:bradley_bwb}\relax }}{29}{figure.caption.33}
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Aerodynamics tradeoff for a BWB, from the work of Qin et al.~\cite {bib:qin}.\relax }}{32}{figure.caption.34}
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Shape and planform design variables considered in the work of Lyu and Martins, for the BWB optimisation~\cite {bib:lyu}. \relax }}{33}{figure.caption.36}
+\contentsline {figure}{\numberline {1.20}{\ignorespaces NASA N3-X concept~\cite {bib:kim_n3x_2008}.\relax }}{35}{figure.caption.37}
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Ph.D. roadmap, representing the two separated steps to finally converge toward the Blended Wing-Body with distributed electric propulsion configuration.\relax }}{39}{figure.caption.38}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Development of an optimisation framework for conceptual aircraft design}{41}{chapter.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagram of FAST, using the xDSM standard~\cite {bib:lambe_xdsm}.\relax }}{46}{figure.caption.41}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces CERAS engine reference deck~\cite {bib:ceras}.\relax }}{48}{figure.caption.42}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces xDSM diagram of the geometry analysis coded in FAST~\cite {bib:lambe_xdsm}.\relax }}{50}{figure.caption.44}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Compressibility drag coefficient as function of Mach and lift coefficient. Curves are obtained considering $\Lambda _{25_{w}}$=28~\si {\qopname \relax o{deg}} and $\left (\frac {t}{c}\right )_w$=0.12.\relax }}{53}{figure.caption.45}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces xDSM diagram for the time step performance analysis.\relax }}{56}{figure.caption.47}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Different mission profiles~\cite {bib:bradley_sugar_p1}.\relax }}{57}{figure.caption.48}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces xDSM diagram climb and cruise phase performance, to highlight the iterative procedure used in FAST.\relax }}{58}{figure.caption.49}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Some of the outputs of FAST, related to the A320 validation test case, with the TLAR reported in Table.~\ref {tab:fast_base_tlar}. Continuous line represents the trajectory, meanwhile dashed line is the true air speed or the lift coefficient, according to the flight phase.\relax }}{62}{figure.caption.54}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Comparison between gradient-free and gradient-based methods on the required number of iterations~\cite {bib:martins_2014}.\relax }}{64}{figure.caption.57}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Relations between the OpenMDAO four basic classes: \texttt {Component, Group, Driver} and \texttt {Problem}~\cite {bib:gray_omdao}.\relax }}{66}{figure.caption.58}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces xDSM diagram for the integrated version of FAST, obtained by the coupling with OpenMDAO.\relax }}{68}{figure.caption.59}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces xDSM diagram for the geometry module of integrated version FAST and OpenMDAO.\relax }}{70}{figure.caption.60}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Payload-Range diagram, for the A320 CERAS test case, baseline and optimised aircraft.\relax }}{77}{figure.caption.66}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Convergence history for optimisation problem of A320 CERAS test case.\relax }}{77}{figure.caption.67}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Fuel consumption as a function of design range for the A320 baseline and the optimised aircraft, resized to match EIS2035. TLAR are reported in Table~\ref {tab:a320_2035_tlar}. \relax }}{81}{figure.caption.71}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Design methodology and exploration of hybrid aircraft}{85}{chapter.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Typical evolution of atmospheric boundary layer during the day. Convective boundary layer extension is shown~\cite {bib:li}\relax }}{91}{figure.caption.77}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Classical TAW configuration featuring distributed electric propulsion concept, as modeled in OpenVSP~\cite {bib:openvsp}.\relax }}{91}{figure.caption.79}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces General scheme of hybrid electric distributed propulsive chain architecture considered in this reseach. Case of 40 engines distributed along the wing.\relax }}{93}{figure.caption.80}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ragone plot for different type of batteries, 2008 technology state of the art~\cite {bib:simon}.\relax }}{95}{figure.caption.81}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Typical battery discharge curve voltage vs capacity; with the three characteristic regions identified~\cite {bib:tremblay}.\relax }}{96}{figure.caption.82}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Turboshaft model, as in GSP software~\cite {bib:gsp_website}.\relax }}{98}{figure.caption.83}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Scheme of anular motor, which integrates electric motors and ducted fan~\cite {bib:eichenber}.\relax }}{100}{figure.caption.85}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Scheme of a ducted fan for the model presented\relax }}{103}{figure.caption.86}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Fan radius (in blue) and required power (dashed line) as function of FPR, $c_T=9.86\times 10^{-2}$, $M_0=0.78$ and $h$=35000~ft.\relax }}{106}{figure.caption.87}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Allowable region for the velocity at the tip of fan blade. The shaded region represents a non feasible space.\relax }}{106}{figure.caption.88}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces FAST xDSM scheme for the version tailored to hybrid aircraft featuring distributed electric propulsion, shown in Fig.~\ref {fig:aircraft_dep_concept}. \relax }}{110}{figure.caption.89}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Scheme of ducted fan for the wetted surface estimation\relax }}{111}{figure.caption.90}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Blowing surface visualisation: the region interested is indicated by the red colour.\relax }}{112}{figure.caption.92}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces xDSM diagram for the integrated version of FAST, tailored to optimisation of hybrid aircraft with distributed electric propulsion.\relax }}{114}{figure.caption.94}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Effects on OWE $m_e$ and energy consumption $E_c$ of battery technology parameters. Fixed battery case.\relax }}{120}{figure.caption.99}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Fuel consumption as function of design range, comparison between the baseline and the hybrid aircraft with distributed propulsion.\relax }}{125}{figure.caption.107}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Energy consumption as function of design range, comparison between the baseline and the hybrid aircraft with distributed propulsion.\relax }}{125}{figure.caption.108}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces PFEE, defined in Eq.~\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:pfee}\unskip \@@italiccorr )}} as function of design range, comparison between the baseline and the hybrid aircraft with distributed propulsion.\relax }}{126}{figure.caption.109}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Electric motors' mass as function of number of cores for the hybrid aircraft concept, $N_{EM}=32$, R~=~900~nmi.\relax }}{128}{figure.caption.112}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Fuel consumption as function of design range, comparison between the optimised baseline and hybrid aircraft with distributed electric propulsion.\relax }}{134}{figure.caption.117}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Energy consumption as function of design range, comparison between the optimised baseline and the hybrid aircraft with distributed electric propulsion.\relax }}{135}{figure.caption.118}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces PFEE, defined in Eq.~\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:pfee}\unskip \@@italiccorr )}} as function of design range, comparison between the optimised baseline and the hybrid aircraft with distributed electric propulsion.\relax }}{135}{figure.caption.119}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Exploration points using NSGA-II, for the multiobjective optimisation of hybrid aircraft, $N_{EM}=32$ and R=~900~nmi. 20000 points considered.\relax }}{141}{figure.caption.125}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Comparison between the Pareto frontier obtained with NSGA-II and SNOPT, through the composite function in Eq.~\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:multiobj_aux_func}\unskip \@@italiccorr )}}. Hybrid aircraft case, $N_{EM}=32$ and R=~900~nmi.\relax }}{142}{figure.caption.126}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Comparison between three different configurations, chosen within the Pareto frontier for $\alpha =0$, $\alpha =0.5$ and $\alpha =1$ in Eq.~\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:multiobj_aux_func}\unskip \@@italiccorr )}}.\relax }}{142}{figure.caption.128}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Design methodology and exploration of the Blended Wing-Body concept}{147}{chapter.4}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ISAE-Supaero and ONERA Blended Wing-Body reference geometry.\relax }}{152}{figure.caption.132}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Detail of the Blended Wing-Body mesh around the body.\relax }}{154}{figure.caption.134}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Convergence history example for CFD simulation, $\alpha $=-3~\si {\qopname \relax o{deg}}, M=0.78 and h=35000~ft.\relax }}{155}{figure.caption.136}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces $C_L-\alpha $ curve, comparison between SU2, FAST and OpenVSP. RANS simulation case, M=0.78 and h=35000~ft.\relax }}{155}{figure.caption.137}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces $C_D-C_L$ curve, comparison between SU2, FAST and OpenVSP. RANS simulation case M=0.78 and h=35000ft.\relax }}{156}{figure.caption.139}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Lift-over-drag ratio curve, comparison between SU2, FAST and OpenVSP. RANS simulation case. M=0.78 and h=35000~ft.\relax }}{157}{figure.caption.141}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces $C_D-M$ curve, $\alpha $=1.5~\si {\qopname \relax o{deg}} and h=35000~ft. Drag divergence point marked in black.\relax }}{158}{figure.caption.142}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Aircraft diagram scheme, noting the angle of attack $\alpha $, the flight path angle $\gamma $ and the line for indices~\cite {bib:agodemar_dsv}.\relax }}{159}{figure.caption.143}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The 6 control surfaces configurations proposed for the BWB reference geometry for the purpose of this research activity.\relax }}{161}{figure.caption.145}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Elevon deflection $\delta _{e}$ for the 6 BWB configurations of Fig.~\ref {fig:bwb_elevon_configuration}, as function of demanded angle of attack.\relax }}{163}{figure.caption.148}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Maximum hinge moment for the 6 BWB configurations of Fig.~\ref {fig:bwb_elevon_configuration}, as function of demanded angle of attack.\relax }}{164}{figure.caption.149}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Peak power for the 6 BWB configurations of Fig.~\ref {fig:bwb_elevon_configuration}, as function of demanded angle of attack.\relax }}{165}{figure.caption.150}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Sensitivity analysis of trimmed condition with respect to the static margin. Quantities of interest considered are the angle of attack $\alpha $, the elevon's deflection $\delta _{e}$ and the variation of LoD value between trimmed and non trimmed condition $\Delta \left (\frac {L}{D}\right )$.\relax }}{167}{figure.caption.151}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces BWB geometry visualisation; ribs have been omitted for clarity purposes.\relax }}{168}{figure.caption.152}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Static analysis results for the BWB reference geometry design.\relax }}{169}{figure.caption.154}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Structural components mass breakdown for the static analysis of BWB reference geometry.\relax }}{170}{figure.caption.156}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces BWB reference geometry, together with integrated nacelle, at the symmetry section.\relax }}{172}{figure.caption.159}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Detail of the optimised nacelle, mounted on the BWB.\relax }}{173}{figure.caption.161}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Performance comparison between the non optimised and optimised nacelle geometry using MSES.\relax }}{174}{figure.caption.162}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Displacement thickness and kinetic energy thickness comparison between the integrated geometry and the isolated body geometry.\relax }}{175}{figure.caption.163}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Planform scheme for the Blended Wing-Body sizing.\relax }}{176}{figure.caption.164}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Seats arrangements for a three class BWB configurations.\relax }}{178}{figure.caption.165}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Final rendering of Blended Wing-Body with distributed propulsion.\relax }}{181}{figure.caption.167}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Seats arrangement and boarding doors position assumption for the BWB geometry.\relax }}{182}{figure.caption.168}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Blended Wing-Body with distributed propulsion rendering, detail of subsystems allocation.\relax }}{183}{figure.caption.170}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces MDA loop tailored for the Blended Wing-Body sizing with conventional propulsion.\relax }}{185}{figure.caption.171}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Constraint diagram for the BWB with conventional propulsion.\relax }}{187}{figure.caption.172}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Comparison between the LoD curve for the reference aircraft and the BWB with conventional propulsion. Shading identifies the region where models are not accurate anymore, since the wave drag is not well predicted at high $C_L$.\relax }}{190}{figure.caption.175}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Mass breakdown for the BWB featuring conventional propulsion, with TLAR reported in Table~\ref {tab:fast_base_tlar}. Mass norm is the reference French 2001/D, used in FAST~\cite {bib:mass_breakdown}.\relax }}{191}{figure.caption.176}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Comparison between the reference aircraft and the BWB with conventional propulsion for different operational ranges.\relax }}{191}{figure.caption.177}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Payload-Range comparison between the reference aircraft and the BWB with conventional propulsion, considering the two cases with auxiliary tanks and not.\relax }}{192}{figure.caption.178}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Fuel consumption as function of design range, comparison between the optimised baseline and the BWB with distributed electric propulsion. Three configurations have been analysed, corresponding to $N_{EM}=16,32,48$.\relax }}{199}{figure.caption.184}
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Energy consumption as function of design range, comparison between the optimised baseline and the BWB with distributed electric propulsion. Three configurations have been analysed, corresponding to $N_{EM}=16,32,48$.\relax }}{199}{figure.caption.185}
+\contentsline {figure}{\numberline {4.34}{\ignorespaces PFEE, defined in Eq.~\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:pfee}\unskip \@@italiccorr )}} as function of design range, comparison between the optimised baseline and the BWB with distributed electric propulsion. Three configurations have been analysed, corresponding to $N_{EM}=16,32,48$.\relax }}{200}{figure.caption.186}
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Mass breakdown for the BWB with distributed electric propulsion, $N_{EM}=32$, R=900~nmi. Mass norm is the revised French 2001/D for hybrid architectures, used in FAST~\cite {bib:mass_breakdown}.\relax }}{202}{figure.caption.190}
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Exploration points using NSGA-II, for the multiobjective optimisation of BWB with distributed electric propulsion, $N_{EM}=32$ and R=~900~nmi. 50000 points considered.\relax }}{204}{figure.caption.192}
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Comparison between the Pareto frontier obtained with NSGA-II and SNOPT, through the auxiliary function in Eq.~\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq:multiobj_aux_func}\unskip \@@italiccorr )}}. BWB with DEP case, $N_{EM}=32$ and R~=~900~nmi.\relax }}{204}{figure.caption.193}
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Fuel consumption as function of design range, comparison between the optimised baseline and the BWB with DEP, where the electric propulsion is obtained by turbogenerators solely.\relax }}{206}{figure.caption.195}
+\contentsline {xchapter}{}{213}{chapter*.201}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Blended Wing-Body cabin design review}{245}{Appendix.1.A}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Integrated cabin structure design.\relax }}{245}{figure.caption.203}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Segregated cabin structure design.\relax }}{246}{figure.caption.204}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Oval cabin structure design.\relax }}{246}{figure.caption.205}
+\addvspace {10\p@ }
+\contentsline {xchapter}{FAST I/O file structure}{247}{Appendix.1.B}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Review of MDO architecture}{249}{Appendix.1.C}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Comparison between the relative error using different MDO architectures on a given design problem~\cite {bib:tedford}.\relax }}{250}{figure.caption.206}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Gradient based algorithm scheme for MDO problems~\cite {bib:martins_2014}.\relax }}{251}{figure.caption.207}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces xDSM diagram for the AAO problem.\relax }}{253}{figure.caption.209}
+\contentsline {figure}{\numberline {C.4}{\ignorespaces xDSM diagram for the SAND architecture.\relax }}{254}{figure.caption.210}
+\contentsline {figure}{\numberline {C.5}{\ignorespaces xDSM diagram for the IDF architecture.\relax }}{255}{figure.caption.211}
+\contentsline {figure}{\numberline {C.6}{\ignorespaces xDSM diagram for the MDF architecture.\relax }}{256}{figure.caption.212}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Summary of MDO architectures~\cite {bib:martins_mdo}.\relax }}{258}{figure.caption.213}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Polynomial Chaos Expansion method for global sensitivity analysis}{259}{Appendix.1.D}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Plot of sensitivity analysis results}{263}{Appendix.1.E}
+\contentsline {figure}{\numberline {E.1}{\ignorespaces Effects on OWE $m_e$ and energy consumption $E_c$ of battery technology parameters for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$. Fixed battery case.\relax }}{263}{figure.caption.214}
+\contentsline {figure}{\numberline {E.2}{\ignorespaces Effects on OWE $m_e$ and energy consumption $E_c$ of gas turbine and generator technology parameters for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$. Fixed battery case.\relax }}{264}{figure.caption.215}
+\contentsline {figure}{\numberline {E.3}{\ignorespaces Effects on OWE $m_e$ and energy consumption $E_c$ of electric motor and cooling system technology parameters for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$. Fixed battery case.\relax }}{264}{figure.caption.216}
+\contentsline {figure}{\numberline {E.4}{\ignorespaces Effects on OWE $m_e$ and energy consumption $E_c$ of inverter/converter and electric core technology parameters for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$. Fixed battery case.\relax }}{265}{figure.caption.217}
+\contentsline {figure}{\numberline {E.5}{\ignorespaces Effects on OWE $m_e$ and energy consumption $E_c$ of battery technology parameters for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$. Battery's resizing case.\relax }}{266}{figure.caption.218}
+\contentsline {figure}{\numberline {E.6}{\ignorespaces Effects on OWE $m_e$ and energy consumption $E_c$ of gas turbine and generator technology parameters for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$. Battery's resizing case.\relax }}{266}{figure.caption.219}
+\contentsline {figure}{\numberline {E.7}{\ignorespaces Effects on OWE $m_e$ and energy consumption $E_c$ of electric motor and cooling system technology parameters for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$. Battery's resizing case.\relax }}{267}{figure.caption.220}
+\contentsline {figure}{\numberline {E.8}{\ignorespaces Effects on OWE $m_e$ and energy consumption $E_c$ of inverter/converter and electric core technology parameters for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$. Battery's resizing case.\relax }}{267}{figure.caption.221}
+\contentsline {figure}{\numberline {E.9}{\ignorespaces Effect of wing parameters over energy consumption $E_c$, OWE $m_e$ and maximum LoD for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$.\relax }}{268}{figure.caption.222}
+\contentsline {figure}{\numberline {E.10}{\ignorespaces Effect of HT parameters over energy consumption $E_c$, OWE $m_e$ and maximum LoD for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$.\relax }}{268}{figure.caption.223}
+\contentsline {figure}{\numberline {E.11}{\ignorespaces Effect of VT parameters over energy consumption $E_c$, OWE $m_e$ and maximum LoD for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$.\relax }}{269}{figure.caption.224}
+\contentsline {figure}{\numberline {E.12}{\ignorespaces Effect of FPR over energy consumption $E_c$, OWE $m_e$ and maximum LoD for the hybrid aircraft case, $\textrm {R}=900$~nmi, $N_{EM}=32$.\relax }}{269}{figure.caption.225}

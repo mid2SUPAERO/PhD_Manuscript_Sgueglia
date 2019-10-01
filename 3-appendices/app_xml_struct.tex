@@ -1,0 +1,98 @@
+\chapter{FAST I/O file structure}
+\markboth{FAST I/O file structure}{FAST I/O file structure}
+\label{app:xml_file_struct}
+
+\begin{mdframed}[hidealllines=true,backgroundcolor=lightgray!20]
+	%[caption={Example of FAST \texttt{xml} I/O file structure.}, label={lst:xml_struct},language=xml] 
+	\begin{lstlisting}[label={lst:xml_struct},language=xml] 
+	<xml version="1.0" encoding="utf-8">
+	<fastDataModel xmlns:xsi="http://www.w3.org/2001/xmlSchema-instance" 
+	xsi:noNamespaceSchemaLocation="fastDataModel.xsd">
+	<Aircraft id="143">
+		<TLAR id="147">
+		<!--Top level requirements-->
+		</TLAR>
+		<configuration id="146">
+		<!--Configuration definition-->
+		</configuration>
+		<mission id="154">
+			<sizing id="164" xsi:type="Sizing">
+				<!--Design mission definition-->
+			</sizing>
+			<operational id="172" xsi:type="Oper">
+				<!--Oper. mission definition-->
+			</operational>
+		</mission>
+		<cabin id="155">
+			<!--Seats, aisles and service dimensions-->
+		</cabin>
+		<geometry id="153">
+			<wing id="185">
+				<!--Wing geometry-->
+			</wing>
+			<high_lift id="160">
+				<!--High lift geometry-->
+			</high_lift>
+			<fuselage id="162">
+				<!--Fuselage geometry-->
+			</fuselage>
+			<ht id="166">
+				<!--Horizontal tail geometry-->
+			</ht>
+			<vt id="157">
+				<!--Vertical tail geometry-->	
+			</vt>
+			<propulsion id="161">
+				<!--Engine geometry-->
+			</propulsion>
+			<LG id="176">
+				<!--Landing gear geometry-->
+			</LG>
+		</geometry>
+		<propulsion id="148">
+			<!--Engine data definition-->
+		</propulsion>
+		<aerodynamics id="145">
+			<!--Aerodynamics parameters-->
+		</aerodynamics>
+		<weight id="151">
+			<airframe id="182">
+				<!--Airframe masses-->
+			</airframe>
+			<propulsion id="184">
+				<!--Propulsive masses-->
+			</propulsion>
+			<systems id="163">
+				<!--Auxiliary system masses-->
+			</systems>
+			<furniture id="169">
+				<!--Furniture masses-->
+			</furniture>
+			<crew id="183">
+				<!--Crew mass-->
+			</crew>
+		</weight>
+		<balance id="152">
+			<airframe id="159">
+				<!--Airframe CGs-->
+			</airframe>
+			<propulsion id="171">
+				<!--Propulsive CGs-->
+			</propulsion>
+			<systems id="168">
+				<!--Auxiliary system CGs-->
+			</systems>
+			<furniture id="170">
+				<!--Furniture CGs-->
+			</furniture>
+			<crew id="180">
+				<!--Crew CG-->
+			</crew>		
+			<PayLoad id="177">	
+				<!--Payload CG-->
+			</PayLoad>	
+		</balance>
+	</Aircraft>
+	</fastDataModel>
+	\end{lstlisting}
+\end{mdframed}

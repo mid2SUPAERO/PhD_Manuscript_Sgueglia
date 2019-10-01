@@ -1,0 +1,104 @@
+% A LaTeX template fitted for a Phd thesis report
+% Copyright (C) 2013 Damien Roque
+% Author : Damien Roque <damien.roque_AT_isae-supaero.fr>
+
+\documentclass[a4paper,11pt,twoside]{book}
+%\documentclass[a4paper,11pt, twoside]{templates/roque-phdthesis-template}
+
+% Include configuration (loading packages, defining the style of the document...)
+\usepackage[utf8]{inputenc}
+\include{0-configuration/configuration}
+
+% Include user's macros
+\include{0-configuration/macros}
+
+\begin{document}
+% Include the title pages
+% (the first is made mandatory by UDG and the second is more traditional)
+\include{1-opening/titlepage}
+
+% Use roman page numbering for non-significant pages
+\frontmatter
+\pagenumbering{roman}
+
+\include{1-opening/quotation}
+
+% Build the general table of contents
+\setcounter{tocdepth}{1}
+% Build a per-chapter table of content
+\dominitoc
+\tableofcontents
+%\adjustmtc
+
+%Acknowledgements
+%\cleardoublepage
+%\phantomsection
+%\include{1-opening/acknowledgements}
+
+% Abstract
+\cleardoublepage
+\phantomsection
+\include{1-opening/abstract}
+
+% Include the nomenclature list
+\cleardoublepage
+\phantomsection
+\include{1-opening/nomenclature}
+
+% Include the acronyms
+\cleardoublepage
+\phantomsection
+\include{1-opening/acronyms}
+
+% Build the list of figures
+\cleardoublepage
+\phantomsection
+\include{1-opening/figures}
+
+% Build the list of tables
+\cleardoublepage
+\phantomsection
+\include{1-opening/tables}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Chapters are included here %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Use arabic page numbering for significant pages
+\mainmatter
+\pagestyle{fancy}
+
+% Include the chapters
+%Introduction
+\include{2-chapters/intro}
+%1-State of the art
+\include{2-chapters/chap1}
+%2-FAST development for conventional aircraft
+\include{2-chapters/chap2}
+%3-TAW with DEP
+\include{2-chapters/chap3}
+%4-BWB conventional and with DEP 
+\include{2-chapters/chap4}
+%Conclusions
+\include{2-chapters/conclusion}
+%References
+\include{3-appendices/references}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Appendices are included here %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\appendix
+\begin{appendices}
+	%BWB cabin structure
+	\input{3-appendices/app_bwb_cabin}
+	%XML structure file example
+	\input{3-appendices/app_xml_struct}
+	%MDO
+	\input{3-appendices/app_mdo_rev}
+	%PCE method
+	\input{3-appendices/app_pce_method}
+	%Sensitivity plots
+	\input{3-appendices/app_sens_plot}
+\end{appendices}
+
+\end{document}

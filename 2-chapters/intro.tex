@@ -1,0 +1,69 @@
+\chapter*{Introduction}
+\markboth{Introduction}{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}  
+\mtcaddchapter 
+
+Since its birth in '30s, air transport sector has been continuously growing each year. 
+In last decade, thanks to the entry of new commercial area, such as south America or western Asia, the trend has become exponential. 
+According to perspective from Boeing and Airbus, the two main leaders in the sector, the number of aircraft flying will be increased of about 39000+ units in 20.
+
+This growth poses a key problem when looking at the emission level.
+According to 2015 data, aviation accounts for the 3\% of total CO\textsubscript{x} and NO\textsubscript{x} emissions.
+Without any action taken, predictions indicate that this percentage will reach values between 30 and 50\% in a 20 years horizon. 
+To avoid such scenario, a sustainable growth must be found. 
+
+Several consortium and agency, spreaded between America and Europe, have published their objectives for emission reduction in near and long term, up to 2050 horizon. 
+All these perspectives are very aggressive, and it is commonly recognised that they cannot been achieved through the incremental approach that has been used so far in aviation. 
+The classical ``tube-and-wing'' (TAW) configuration has been indeed developed for more than 70 years, and it offers only small potential gains: it is then necessary to introduce a new paradigm in aircraft design, a disruptive concept, based on innovative technologies, to drastically reduce emission. 
+The study of a disruptive concept takes place at conceptual design level, where different configurations are defined and sized in order to downselect the most promising ones for further developments. 
+Thus thus Ph.D. proposes to develop a Multidisciplinary Design and Optimisation (MDAO) process tailored to the design of an unconventional configuration that would match stringent environmental goals. 
+
+In literature, two main areas of research have been considered: technologies at airframe level, focusing on more aerodynamically efficient architectures, and technologies at propulsive level, deploying hybrid and electric propulsive chain. 
+Given the objectives, a most likely viable aircraft must benefit from a combination of both technologies, leading to an optilised overall configuration including hybrid powerplant. 
+The main problem when dealing with such innovative concepts concerns the models: the classical methods proposed by aircraft design handbooks are well suited for a conventional configuration, but lose their validity when the concept is drastically different, as in the case of hybrid propulsion or integrated airframe concepts. 
+From this consideration the main problem to be solved can be stated as following: \textbf{``How can unconventional configurations be investigated at conceptual design level''?}
+This dissertation proposes an answer to this question in 4 steps.
+
+Chapter~\ref{chap1:state_art} reviews the state of the art, focusing on the works of major interest for this research. 
+After a brief introduction to better frame the environmental context, the conceptual aircraft design procedure is presented.
+Then, innovative key technologies are explored: one of the most promising technology found in literature is the electric and hybrid propulsion. 
+This technology, which has been applied at automotive industry and on some general aviation aircraft, enables a total or partial mission electrification, greening the air and the reduction of emission. 
+Also, such propulsion concepts enable the increase of propulsive and aerodynamic efficiency, through distribution of thrust and/or boundary layer ingestion.. 
+Both these aspects will be detailed. 
+At airframe level, the Blended Wing-Body (BWB) is identified as a promising concept with high aerodynamic efficiency. 
+At the end of the review, a promising integrated concept is identified in the Blended Wing-Body (BWB) with distributed electric propulsion.
+Following the statement of the research problem, it is found that aircraft design must go towards a Multidisciplinary Design Optimisation approach, since it provides the necessary tools to establish a tradeoff for unconventional configuration, without neglecting any of the possible key interactions. 
+
+Chapter~\ref{chap2:fast_base_mdo} presents the development of an aircraft optimisation sizing platform, based on the integration of the code FAST within OpenMDAO. 
+FAST, which stands for Fixed-wing Aircraft Sizing Tool, is a code developed at ONERA and ISAE-Supaero for the preliminary design of large passenger aircraft. 
+OpenMDAO, instead, is a MDAO platform, developed at NASA Glenn Research Center, which has been used for a large variety of MDO problems in aeronautics.
+After a presentation of both tools, with features and drawbacks, the integration of FAST and OpenMDAO is desribed.
+A suitable MDO architecture for aircraft design problem is identified, and the processus carried out in the integration is detailed.
+The developed code is used for the optimisation of the Airbus A320 test case, so that gains of the optimisation process would be highlighted.
+Subsequently, the code has been used to define a set of reference aircraft, considering entry into service 2035. 
+Results will be used later to evaluate performance of the proposed disruptive concept. 
+
+The BWB with distributed electric propulsion concept is based on the integration of two different innovative technologies: a new hybrid powerplant at propulsive level and a non conventional architecture at airframe level. 
+To better quantify the impact of each of these aspects on the overall design, they are individually treated considering a conventional tube-and-wing aircraft featuring distributed electric propulsion and a BWB mouting conventional air-breathing engines. 
+The coupling between the two finally leads to the proposed concept of BWB with distributed electric propulsion. 
+The following two chapters reflects this approach.
+
+Chapter~\ref{chap3:hybrid_dep_exploration} is dedicated to the methodology and the exploration of the first concept, tube-and-wing aircraft with distributed electric propulsion. 
+The first part of the chapter focuses on the the methodology: the overall propulsive chain is defined at system level, and then models related to each electric component are presented. 
+Afterwards, these models are integrated within the conceptual design loop and required modifications to the disciplines are detailed.  
+Finally, the revised sizing process is included in the MDO formulation defined in Chapter~\ref{chap2:fast_base_mdo}, to finally converge towards an optimisation sizing framework for an hybrid aircraft. 
+The second part of the chapter presents the sizing results for this concept: at first only the sizing loop is applied, to assess its quality in dealing with the innovative powerplant.
+Afterwards, optimisation results are presented, varying also the number of engines, in order to establish a possible tradeoff. 
+Aircraft performances are evaluated against the reference aircraft, defined in Chapter~\ref{chap2:fast_base_mdo}. 
+A Pareto frontier is also generated, comparing two different optimisation algorithms, one gradient-based and another one gradient-free, in order to assess the reduction in computational cost due to the utilisation of derivatives in the optimisation process. 
+
+Chapter~\ref{chap4:bwb_exploration} presents the methods that have been implemented for the Blended Wing-Body sizing. 
+First, the research strategy is detailed: in order to tackle the lack of reference data for the BWB architecture, a multi-fidelity analysis is carried out at disciplinary level, so that fast but reliable methods can be identified and used in the conceptual design stage. 
+Once more, revised models are integrated within the sizing loop, and the resulting procedure is included in the MDO formulation. 
+Finally have a MDAO framework tailored to BWB with DEP is obtained. 
+The first part of the results relates only to application of the sizing loop, considering conventional engines, in order to assess the benefits coming solely from the BWB architecture. 
+Afterwards, the powerplant modeled in Chapter~\ref{chap3:hybrid_dep_exploration} is combined with this architecture, and the BWB with distributed electric propulsion is explored. 
+In this case too, performances are evaluated against the reference aircraft EIS 2035. 
+A Pareto frontier is also obtained, to establish tradeoff for the proposed disruptive concept. 
+
+This dissertation is concluded with an overall revision of the work and possible further development to be made on the Multidisciplinary Design Analysis and Optimisation process. 

@@ -1,0 +1,30 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Introduction}{\reset@font\mtcSfont 151}{section.4.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Development of models tailored to Blended Wing-Body sizing}{\reset@font\mtcSfont 152}{section.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.1}Research strategy}{\reset@font\mtcSSfont 152}{subsection.4.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.2}High fidelity aerodynamics study for the Blended Wing-Body}{\reset@font\mtcSSfont 153}{subsection.4.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.3}Control surfaces sizing for the BWB longitudinal control}{\reset@font\mtcSSfont 159}{subsection.4.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.1}The control problem formulation}{\reset@font\mtcSSSfont 159}{subsubsection.4.2.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.2}The longitudinal control for a BWB configuration}{\reset@font\mtcSSSfont 162}{subsubsection.4.2.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.3}Sensitivity analysis on the BWB stability}{\reset@font\mtcSSSfont 165}{subsubsection.4.2.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.4}Blended Wing-Body structural design}{\reset@font\mtcSSfont 166}{subsection.4.2.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.4.1}Modelling of the Blended Wing-Body internal structure}{\reset@font\mtcSSSfont 166}{subsubsection.4.2.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.4.2}Static analysis}{\reset@font\mtcSSSfont 169}{subsubsection.4.2.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.5}Nacelle integration in the Blended Wing-Body architecture}{\reset@font\mtcSSfont 171}{subsection.4.2.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.6}Blended Wing-Body design synthesis}{\reset@font\mtcSSfont 175}{subsection.4.2.6}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.6.1}Planform sizing}{\reset@font\mtcSSSfont 176}{subsubsection.4.2.6.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.6.2}Cabin modelling}{\reset@font\mtcSSSfont 177}{subsubsection.4.2.6.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.6.3}Transition zone and outer wing modelling}{\reset@font\mtcSSSfont 179}{subsubsection.4.2.6.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.6.4}Subsystem positioning}{\reset@font\mtcSSSfont 180}{subsubsection.4.2.6.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Methodology for the Blended Wing-Body sizing}{\reset@font\mtcSfont 184}{section.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}MDA sizing loop}{\reset@font\mtcSSfont 184}{subsection.4.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}MDO formulation}{\reset@font\mtcSSfont 187}{subsection.4.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}The Blended Wing-Body featuring conventional propulsion}{\reset@font\mtcSfont 188}{section.4.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.1}Design mission analysis}{\reset@font\mtcSSfont 188}{subsection.4.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.2}Operational area assessment}{\reset@font\mtcSSfont 191}{subsection.4.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}The Blended Wing-Body with distributed electric propulsion}{\reset@font\mtcSfont 193}{section.4.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.1}Problem formulation}{\reset@font\mtcSSfont 193}{subsection.4.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.2}Sensitivity analysis results}{\reset@font\mtcSSfont 193}{subsection.4.5.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.3}Mono-objective optimisation results}{\reset@font\mtcSSfont 197}{subsection.4.5.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.4}Pareto frontier for the proposed BWB concept}{\reset@font\mtcSSfont 203}{subsection.4.5.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.5}Results for an hybrid BWB concept without batteries}{\reset@font\mtcSSfont 205}{subsection.4.5.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.6}Conclusions}{\reset@font\mtcSfont 207}{section.4.6}}

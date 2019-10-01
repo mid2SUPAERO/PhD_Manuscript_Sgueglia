@@ -1,0 +1,46 @@
+\BOOKMARK [0][-]{section*.2}{Summary}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{Nomenclature}{}% 2
+\BOOKMARK [0][-]{chapter*.6}{Acronyms}{}% 3
+\BOOKMARK [0][-]{section*.7}{List of figures}{}% 4
+\BOOKMARK [0][-]{section*.9}{List of tables}{}% 5
+\BOOKMARK [0][-]{chapter*.11}{Introduction}{}% 6
+\BOOKMARK [0][-]{chapter.1}{Advanced aircraft design process: a technology review}{}% 7
+\BOOKMARK [1][-]{section.1.1}{The environmental context}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Aircraft conceptual design cycle}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.3}{Key innovative aircraft technologies}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.4}{The research problem}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{Development of an optimisation framework for conceptual aircraft design}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{The sizing tool FAST}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{OpenMDAO \205 a multidisciplinary optimisation platform}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.4}{The integrated plaftorm FAST and OpenMDAO}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.5}{Conclusion}{chapter.2}% 17
+\BOOKMARK [0][-]{chapter.3}{Design methodology and exploration of hybrid aircraft}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.2}{Presentation of the proposed concept}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.3}{Definition of an hybrid propulsive chain}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.4}{Methodology for the sizing of hybrid aircraft}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.5}{Exploration of hybrid aircraft with distributed electric propulsion}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.6}{Conclusion}{chapter.3}% 24
+\BOOKMARK [0][-]{chapter.4}{Design methodology and exploration of the Blended Wing-Body concept}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.2}{Development of models tailored to Blended Wing-Body sizing}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.3}{Methodology for the Blended Wing-Body sizing}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.4}{The Blended Wing-Body featuring conventional propulsion}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.5}{The Blended Wing-Body with distributed electric propulsion}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.6}{Conclusions}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter*.201}{Conclusions and perspectives}{}% 32
+\BOOKMARK [0][-]{chapter*.201}{Bibliography}{}% 33
+\BOOKMARK [0][-]{Appendix.1.A}{Appendix Blended Wing-Body cabin design review}{}% 34
+\BOOKMARK [1][-]{section.1.A.1}{Integrated structure}{Appendix.1.A}% 35
+\BOOKMARK [1][-]{section.1.A.2}{Segregated structure}{Appendix.1.A}% 36
+\BOOKMARK [1][-]{section.1.A.3}{Oval structure}{Appendix.1.A}% 37
+\BOOKMARK [0][-]{Appendix.1.B}{Appendix FAST I/O file structure}{}% 38
+\BOOKMARK [0][-]{Appendix.1.C}{Appendix Review of MDO architecture}{}% 39
+\BOOKMARK [1][-]{section.1.C.1}{An introduction to the MDO}{Appendix.1.C}% 40
+\BOOKMARK [1][-]{section.1.C.2}{A survey of monolithic architectures}{Appendix.1.C}% 41
+\BOOKMARK [0][-]{Appendix.1.D}{Appendix Polynomial Chaos Expansion method for global sensitivity analysis}{}% 42
+\BOOKMARK [0][-]{Appendix.1.E}{Appendix Plot of sensitivity analysis results}{}% 43
+\BOOKMARK [1][-]{section.1.E.1}{2035 assessment \205 fixed battery case}{Appendix.1.E}% 44
+\BOOKMARK [1][-]{section.1.E.2}{2035 assessment \205 battery resizing}{Appendix.1.E}% 45
+\BOOKMARK [1][-]{section.1.E.3}{Tube-and-wing with distributed electric propulsion case}{Appendix.1.E}% 46

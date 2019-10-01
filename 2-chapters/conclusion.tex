@@ -1,0 +1,119 @@
+\chapter*{Conclusions and perspectives}
+\markboth{Conclusions and perspectives}{Conclusions and perspectives}
+\addcontentsline{toc}{chapter}{Conclusions and perspectives} 
+\mtcaddchapter 
+
+The reduction of the emission in the upcoming years is one of the hardest challenges aviation has found.
+As a matter of fact, despite aviation accounts for 3\% of total global emissions, the increasing number of aircraft flying everyday and the estimated trend for the next years will make this percentage grow up to unsustainable values, above 30-40\%, very soon. 
+Different organisations, like NASA in the United States and ACARE in Europe,published 2050 goals for the emissions reduction. 
+
+Unfortunately, the conventional tube-and-wing configuration has been developed for the past 60 years and it offers only small potential gains, that are not sufficient to match the goal required by the aforementioned organisation. 
+Therefore, there is the need for disruptive changes in the design of the next generation of aircraft.
+
+Among all the available new technologies, this research focuses on the integration of electric propulsion. 
+It is indeed one of the most promising solution due to the fact that it is capable to achieve zero emissions.
+Also, it is already a reality on small scale airplanes: some manufacturers, such as Pipistrel in Slovenia, are building and selling two of rouf passenger aircraft with a full electric propulsion chain. 
+The perspective for the upcoming years related to the electric components performance, make this propulsion system and its application the large passenger aircraft segment interesting.
+Another important point is that hybrid/electric propulsion opens the design space thanks to new aeropropulsive effects, \textit{i.e.} the wing blowing or the BLI. 
+
+Because of the expected large number of interactions between disciplines, greater than in the case of a conventional aircraft, the aircraft design problem itself must be revised. 
+The revision inlucdes an extension of the disciplines and the addition of multidisciplinary design optimisation MDO techniques.
+The later permits to deal with all the possible interactions between disciplines, and to finally optimise the design with respect to one or more objective functions. 
+
+The goal of this research is then to set up a MDO formulation, capable to solve the aircraft design problem of unconventional configurations at conceptual level. 
+At this stage, performance evaluation is the main criteria to identify the most promising concept.
+The test case for this methodology is a Blended Wing-Body featuring distributed electric propulsion, tailored for the small and medium range segment. 
+This concept has been chosen because the BWB has more internal volume than a classical TAW, and its large chord offers an opportunity for an efficient BLI system, thanks to the application of distributed electric propulsion. 
+Beside that, the BWB has naturally a very high aerodynamics efficiency, which plays a significant role in greening air transportation. 
+Since the goal is to analyse a possible solution for the next generation aircraft, an EIS 2035 is considered. 
+Technological assumptions, for aerodynamics, structures and electric components have been made considering this horizon. 
+
+The tool used during this research is FAST, the sizing tool developed jointly by ONERA and ISAE-Supaero. 
+This tool has been integrated within OpenMDAO, an open source multidisciplinary optimisation framework by NASA Glenn Research Centre, in order to obtain an efficient MDO process. 
+Within this sizing and optimisation code, different modules have been modified in order to consider both the characteristics of DEP and BWB architecture.
+The development has been made in three intermediate steps.
+A conventional TAW configuration featuring DEP has been studied first, then the BWB architecture mounting conventional engines has been sized; the BWB with DEP has been finally performed
+
+At the end of this Ph.D. research, the following objectives concerning the design procedure have been achieved: 
+\begin{itemize}
+	\item The most suitable MDO architecture for this problem is the multidisciplinary feasible MDF. 
+	Indeed, it always returns a consistent aircraft even if the optimisation is stopped before the convergence.
+	This is useful for designers to get tradeoff information. 
+	Also, as MDF requires a full MDA, and FAST already provides it, it was the most directly applicable architecture to be used. 
+	
+	\item A new propulsive chain, considering dual energy sources (batteries and kerosene based engines) is modelled, first at global level and then component by component. 
+	
+	\item A procedure for the performance evaluation in case of distributed electric propulsion has been developed and coded in FAST.
+	The propulsive chain mentioned in previous point is considered.  
+	The resulting sizing loop has been tested on a conventional TAW architecture.
+	At the end specific modules for hybrid architecture have been included in the MDF to carry out optimisations of the TAW featuring DEP concept. 
+	
+	\item A procedure for the BWB sizing has been set up. 
+	In order to comply with the lack of reference data and model, a strategy that uses high fidelity calculations to validate or correct low fidelity methods for conceptual design hsa been set up. 
+	The MDA sizing loop in FAST has been then modified to consider the new unconventional architecture. 
+	
+	\item Through the merging of the previous three points, a MDO formulation based on MDF, for the BWB with DEP has been finally defined and tested. 
+\end{itemize}
+
+At each step, FAST has been used to evaluate the performance leve of the unconventional configurations: the TAW featuring DEP, the BWB with conventional engines and the BWB with DEP. 
+The performance of each concept is assessed against a conventional baseline aircraft, siwhing the same top level requirements and matching EIS2035 assumptions. 
+Outcomes from these studies are listed below.
+\begin{itemize}
+	\item The MDO formulation, based on MDF architecture, allows to obtain an optimal configuration in a short time, comparable to the simulation time of original FAST. 
+	The use of gradients speeds up the process greatly compared to gradient-free method, but the main drawback is that with the use of analytic derivatives the modules have been broken up, resulting in more than 200 different functions. 
+	This situation may be difficult to manage for a new user. 
+	
+	\item A sensitivity analysis on the impact of electric components technology in 2035 perspectives shows that batteries are the component with the major impact. 
+	For this reason, the design is mainly driven by this parameter: any improvement in other technologies has negligeable impact, as far as the uncertainty on batteries' technology is kept.
+	
+	\item On the case of a conventional TAW with hybrid propulsion, the DEP introduces a benefit in terms of fuel/energy consumption only at small distances. 
+	The mass due to batteries is the most penalising one, and the concept is better than the baseline only at short ranges, whereas the penalty in mass is counterbalanced by a fully electric segment. 
+	Range limit is about 900~nmi.
+	
+	\item Three different configurations, featuring each 16, 32, and 48 ducted fans have been analysed for the optimisation. 
+	The case with 32 engines results to be the most energy efficient in the region of interest.
+	Indeed, it represents the best compromise between propulsive and aerodynamics efficiency. 
+	
+	\item The BWB mouting conventional HBPR engines saves about 15\% of fuel, compared to a baseline, and in general it shows better performance on operational missions, except for very short distances (600-800~nmi).
+	In fact, it emerges that the BWB is very performing in cruise, but not in climb and descent, due to the higher mass and the different polar. 
+	On very short range, where the cruise distance is limited, the baseline is preferrable. 
+	
+	\item The BWB with DEP enlarges the design region of interest with respect to the previous case of TAW with DEP.
+	However, a breakdown point is still detected, which is approximately 1400~nmi. 
+	The middle case with 32 engines represents again the best balance between aerodynamics and propulsion, and it is then the most performing configuration.
+	
+	\item Batteries have been identified as the most penalising component in terms of weight, as they introduce a mass of about 14~\si{\tonne}. 
+	A sizing loop where the electric power is supplied by turbogenerators solely shows that removing the batteries on the BWB concept is the best solution for all the range of interest against the baseline. 
+	Despite this configuration does not match the zero-emission requirement close to ground, it may be of interest as it globally saves more fuel.
+	
+	\item For both the TAW and the BWB with DEP, the Pareto frontier is obtained through the genetic algorithm NSGA-II and the gradient based algorithm SNOPT. 
+	Results show that with the gradient information is possible to obtain a reliable Pareto frontier with a reduction of CPU time of approximately 60\%.
+	This is a great asset for conceptual designers to initially explore the design space.
+	It also confirms the initial idea of using gradients to achieve more efficient optimisation. 
+\end{itemize}
+
+This research fullfilled its objectives and it provides a set of methods and tools for the sizing and performance evaluation of unconventional configurations to be used in the future by ISAE-Supaero and ONERA. 
+However,the work is far from begin over but represents an initial point, as there are still many points to be explored under the form of Ph.D. or Master's projects. 
+All the main perspectives that came out from the work are listed below.
+\begin{itemize}
+	\item Stability and control laws must be studied for the configurations with DEP, in order to properly size the control surfaces. 
+	For the BWB concept this aspect is even more important, due to the absence of an horizontal tail. 
+	
+	\item Impact of blowing phenomenon over the wing, due to the presence of ducted fans, must be assessed through CFD and eventually wind tunnel tests in order to assess lift, drag and momentum evaluation with respect to thrust load. 
+	
+	\item More high fidelity analyses for the BWB must be carried out on aerodynamics, for more configurations in order to obtain a surrogate model that replaces the actual models based on \textit{k}-factors in FAST and permits to refine the design. 
+	
+	\item The impact of integrated ducted fans, and then the associated BLI, must be assessed on the BWB configuration using CFD.
+	It is the only way to obtain more reliable results than that obtained with the quasi-3D simulation with MSES. 
+	
+	\item The off-design aspects mentioned for the BWB, related to operational aspects (\textit{i.e.} cargo doors or the cut-offs necessary for maintenance) must be deeply investigated to ensure the validity of the concept. 
+	
+	\item The MDF has been used because it was the most intuitive and suitable architecture compatible with FAST, but more architectures should be considered. 
+	In fact, the MDF requires a MDA converging for each iteration, and this is costly in terms of global CPU time; other architectures like the IDF do not have this requirement and may help to reduce the total CPU time. 
+\end{itemize}
+
+To conclude, the intention of this research was to provide a tool for the conceptual design of unconventional configurations, featuring hybrid distributed propulsion. 
+The work so far represents a step forward with respect to studies found in literature, but there is still much to do ahead. 
+The work performed during the 3 years of this Ph.D. provides the way for more refined and faster sizing and optimisation loops for unconventional configuration featuring hybrid/electric propulsion. 
+The next projects and Ph.D. will rely on these developments and outcomes in order to revise and refine possible concepts for the next generation of aircraft. 
+As in every life aspect\dots the best is yet to come!

@@ -1,0 +1,87 @@
+\chapter{Polynomial Chaos Expansion method for global sensitivity analysis}
+\markboth{Polynomial Chaos Expansion method for sensitivity analysis}{Polynomial Chaos Expansion method for sensitivity analysis}
+\label{app:pce_method}
+
+Polynomial chaos expansion (PCE) is a method developed belonging to the class of global sensitivity analysis methods~\cite{bib:saltelli_2008}. 
+
+For the purpose of explanation the notation $x_i$ indicates the $i$-th element of a random vector $\underline{x}$, meanwhile the short notation $x_{\sim i}$ is used to indicate all the input variablex but $x_i$.
+The number of input variables, that is the size of $\underline{x}$, is indicated by $n$; finally $y = \mathcal{M}(\underline{x})$ represents a scalar output, computed with a generic method indicated as $\mathcal{M}$.
+It can be proven that~\cite{bib:erto}
+\begin{equation}
+\label{eq:variance_sobol_test}
+\sigma\left(y\right) = \sigma_{x_{i}}\left[E_{x_{\sim i}}\left(y|x_i\right)\right] + E_{x_{i}}\left[\sigma_{x_{\sim i}}\left(y|x_i\right)\right]
+\end{equation} 
+In Eq.~\eqref{eq:variance_sobol_test}, $E$ represents the expected mean value and $\sigma_{x_{\sim i}}\left(y|x_i\right)$ the variance when the factor $x_i$ is fixed; then $E_{x_{i}}\left[\sigma_{x_{\sim i}}\left(y|x_i\right)\right]$ is the average variance left if $x_i$ is fixed, and thus the term $\sigma_{x_{i}}\left[E_{x_{\sim i}}\left(y|x_i\right)\right]$ is the estimated reduction in variance when the parameter $x_i$ is fixed. 
+So, this method quantifies which is the reduction in variance if one input variable is fixed; in other word, it gives an indication about the relative importance of inputs on a given output. 
+
+In general, the variance can be divided into more terms, as in the analysis of variance (ANOVA):
+\begin{equation}
+\label{eq:variance_anova}
+\sigma\left(y\right) = \sum_{i=1}^{n} \sigma_{x_{i}} + \sum_{i, j>i}^{n}\sigma_{x_{i,j}} + \cdots +\sigma_{123\cdots k}
+\end{equation}
+where the first term represents the first order effects, and the other the coupled effects of second, third, \ldots order. 
+
+For additive models, $\sigma\left(y\right) = \sum_{i=1}^{n} \sigma_{x_{i}}$, that is the variance is explained by first order effects, and there are no interaction between variables. 
+In case of non additive models, part of the variance is explained by minor order terms. 
+
+Finally, first sensitivity indices are defined: they are the ratio between the reduction in variance when a variable $x_i$ is fixed and the total variance.
+\begin{equation}
+\label{eq:first_order_sobol_indices_def}
+s_i = \frac{\sigma_{x_{i}}\left[E_{x_{\sim i}}\left(y|x_i\right)\right]}{\sigma\left(y\right)}
+\end{equation}
+They quantify the reduction in variance if the variable $x_i$ is fixed, and vary between 0 and 1. 
+The considerations above can be rephrased saying that if the sum of the first order indices is equal to 1, the model is additive and minor order interactions between variables are meaningless. 
+On the contrary, if the sum is smaller than one, then the weight of interactions between input variables is not negligible in the total variance of the response and these interactions need to be investigated more precisely.
+Since in practice it is not possible to consider all the orders, the notion of total indices is used. 
+They are defined as
+\begin{equation}
+\label{eq:total_sobol_indices_def}
+s_{T_{i}} = \frac{E_{x_{\sim i}}\left[\sigma_{x_{i}}\left(y|x_{\sim i}\right)\right]}{\sigma\left(y\right)}
+\end{equation}
+and represent the expected variance that would be left if all inputs but $x_i$ could be fixed. 
+With the help of the total sensitivity indices, it is possible to get the interaction between the input parameters. 
+
+Among all the available methods to estimate this indices~\cite{bib:mckay, bib:sobol_1993, bib:cukier}, the Sobol sensitivity test~\cite{bib:sobol_1993} conjugates efficiency in computation and reliability in considering high number of interactions~\cite{bib:saltelli_2004}. 
+This method has been initially proposed by Sudret~\cite{bib:sudret} and it based on a polynomial chaos expansion approximation, that is very efficient in terms of numerical cost in the context of our study (low number of input variables and smooth mapping between inputs and outputs) than a Monte Carlo sampling~\cite{bib:sobol_1993}.
+This approach has been further improved in~\cite{bib:blatman} using sparse PCE and will be used in the following.
+
+In the hypothesis in which $y$ is a second order random variable, it can be shown that~\cite{bib:cameron}
+\begin{equation}
+\label{eq:y_polynome}
+y = \sum_{i=0}^{\infty} c_i \phi_i(\underline{x}) 
+\end{equation}
+where $\left\lbrace \phi_i \right\rbrace_{i\in\mathbb{N}}$ is a polynomial basis orthogonal with respect to the probability density function (pdf) of $\underline{x}$ (Legendre polynomials in case of uniform pdf) and $c_i$ are unknown coefficients. 
+Sparse PCE by Least Angle Regression (LAR) proposed by~\cite{bib:blatman_pce} consists of the construction of a sparse polynomial basis $\left\lbrace \phi_i \right\rbrace_{\alpha\in\mathcal{A}}$, where $\alpha=(\alpha_1,\cdots,\alpha_n)$ is a multi-index used to identify the polynomial acting with the power $\alpha_i$ on the variable $x_i$ and $\mathcal{A}$ is a set of index $\alpha$. 
+In practice $\mathcal{A}$ is a subset of the set $\mathcal{B}$ which contains all the index $\alpha$ up to a degree $d$ \textit{i.e.} \hbox{$card(\mathcal{B})=\frac{(d+n)!}{d!n!}$}. Objective of sparse approach is to find an accurate polynomial basis $\left\lbrace \phi_i \right\rbrace_{\alpha\in\mathcal{A}}$ such as $card(\mathcal{A}) \ll card(\mathcal{B})$.
+This is achieved by Least Angle Regression \textit{i.e.} unknown coefficients $c_i$ are computed by iteratively solving a mean square problem and selecting, at each iteration, the polynomial the most correlated with the residual~\cite{bib:blatman_pce}. Finally, the following approximation is deduced:
+\begin{equation}
+\label{eq:y_approx}
+y\approx\hat{y} = \sum_{\alpha \in \mathcal{A}} c_\alpha \phi_\alpha(\underline{x})
+\end{equation} 
+It should be noted that, in practice, identification of the unknown coefficients by LAR necessities the evaluation of the model $\mathcal{M}$ on a given design of experiments (DOE) sampled from the input space.    
+Due to the orthogonality of the polynomial basis $\left\lbrace \phi_i \right\rbrace_{\alpha\in\mathcal{A}}$ it is possible to write: 
+\begin{equation}
+\label{eq:e_var_y}
+	\left\{\begin{array}{l}
+		E\left[\hat{y}\right] = c_0 \\
+		\sigma\left[\hat{y}\right] = \sum_{\alpha \in \mathcal{A}} c^2_{\alpha} E\left[\phi_{\alpha}^2\left(\underline{x}\right)\right]
+	\end{array}\right.
+\end{equation}
+where $E\left[\hat{y}\right]$ is the mean value and $\sigma\left[\hat{y}\right]$ is the variance of the output variable $\hat{y}$. It is shown in \cite{bib:sudret} that the polynomial chaos expansion can be identified to the ANOVA decomposition, from which it is possible to show that the first order sensitivity index is
+\begin{equation}
+\label{eq:sensitivity_index}
+\hat{s}_i = \frac{\sum_{\alpha \in L_i}c^2_{\alpha}E[\phi_{\alpha}^2(\underline{x})]}{\sigma[\hat{y}]}
+\end{equation}
+where $L_i=\left\lbrace \alpha\in\mathcal{A}/ \forall~j\neq i~\alpha_j=0 \right\rbrace$; that is only the polynomials acting exclusively on variable $x_i$ have been considered. 
+The total sensitivity index can also be computed: 
+\begin{equation}
+\label{eq:total_sensitivity_index}
+\hat{s}_{T_i} = \frac{\sum_{\alpha \in L^+_i}c^2_{\alpha}E[\phi_{\alpha}^2(\underline{x})]}{\sigma[\hat{y}]}
+\end{equation}
+where $L^{+}_i=\left\lbrace \alpha\in\mathcal{A}/ \alpha_i\neq 0 \right\rbrace$; that is all the polynomials acting on the variable $x_i$ have been considered. In other words, all variance caused by its interactions, of any order, with any other input variables are included.
+
+The accuracy of the sensitivity indices estimated thanks to PCE depends on the maximum degree $d$ of the polynomials contained in the candidate basis $\mathcal{B}$ and on the DOE used to compute the unknown coefficients $c_{\alpha}$ in Eq.~(\ref{eq:y_approx}). 
+The degree $d$ of the polynome is set to $d=3$ for all the cases explored. 
+Dubreuil et al.~\cite{bib:dubreuil} suggested the bootstrap approach~\cite{bib:efron} to assess the robustness of method. 
+Training set and validation set are randomly chosen, the unknown coefficients of the PCE are computed and the corresponding sensitivity indices are estimated. 
+These computations are repeated $B$ times leading to an estimation of the mean values and the coefficients of variation for each sensitivity index. 

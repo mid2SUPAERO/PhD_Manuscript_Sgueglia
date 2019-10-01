@@ -1,0 +1,222 @@
+% Encoding and internationalization
+\usepackage[T1]{fontenc}
+\usepackage{aecompl}
+\usepackage[english]{babel} % Comment this line if the document is written in english
+\usepackage{csquotes}
+
+
+% Title page from the University of Toulouse (see doc for further explanations)
+\usepackage[ED=AA, Ets=ISAE]{templates/tlsflyleaf}
+
+\title{Sizing and optimisation priorities applied to a Blended Wing-Body with distributed electric ducted fans}
+\author{Alessandro SGUEGLIA}
+\defencedate{10/12/2019}
+\lab{ISAE-Supaero/DCAS \& ONERA/DTIS}
+%\cotutelle{Institut de cotutelle}
+
+%% Directeur(s) de thèse
+\nboss{2}                                    % Nombre de directeur(s) de thèse
+\makesomeone{boss}{1}{Joseph MORLIER}{}{} % Sera affiché en premier
+\makesomeone{boss}{2}{Nathalie BARTOLI}{}{}  % Sera affiché en second
+%% Referee
+\nreferee{2}
+\makesomeone{referee}{1}{Dimitri MAVRIS}{}{}
+\makesomeone{referee}{2}{Trevor Munro YOUNG}{}{}
+%% Jury
+\njudge{3}
+\makesomeone{judge}{1}{Yves GOURINAT}{President}{ISAE-Supaero}
+\makesomeone{judge}{2}{Fabrizio NICOLOSI}{Adjoint professor}{Università di Napoli ``Federico II''}
+\makesomeone{judge}{3}{Dimitri MAVRIS}{Professor}{GeorgiaTech}
+\makesomeone{judge}{4}{Trevor Munro YOUNG}{Adjoint professor}{University of Limerick}
+\makesomeone{judge}{5}{Roelof VOS}{Adjoint professor}{TU Delft}
+\makesomeone{judge}{6}{Joseph MORLIER}{Professor}{ISAE-Supaero}
+\makesomeone{judge}{7}{Nathalie BARTOLI}{Research Engineer}{ONERA}
+\makesomeone{judge}{8}{Christian BES}{Professor}{Université Paul Sabatier}
+
+% Math packages
+\usepackage{amsmath,amssymb}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{a4wide}
+\renewcommand{\baselinestretch}{1.05}
+
+%\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+%\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+%
+%% Swap the definition of \abs* and \norm*, so that \abs
+%% and \norm resizes the size of the brackets, and the 
+%% starred version does not.
+%\makeatletter
+%\let\oldabs\abs
+%\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+
+% Graphics and hyperlinks
+\usepackage{graphicx}
+\usepackage[hyperindex=true]{hyperref}
+\hypersetup{%
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=blue,
+	urlcolor=blue}
+%\graphicspath{{.}{images/}}
+\usepackage{eso-pic}
+\usepackage{rotating}
+%\usepackage[font=normalsize]{subfig}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\pgfplotsset{plot coordinates/math parser=false}
+\newlength\figureheight
+\newlength\figurewidth
+
+\pgfkeys{/pgf/number format/.cd,
+set decimal separator={,\!},
+1000 sep={\,},
+} % Comment this line if the document is written in english
+
+\usetikzlibrary{plotmarks}
+\usepackage{pdfpages}
+\usepackage{mdframed}
+
+\usepackage[strict]{changepage}
+\newcommand\BackgroundPic{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=0.9\paperwidth,height=1\paperheight,keepaspectratio]{images/background-eps-converted-to}%
+\vfill
+}}}
+
+\usepackage{color}
+%\definecolor{linkcol}{rgb}{0,0,0} 
+%\definecolor{citecol}{rgb}{0,0,0}
+\hypersetup{%
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=blue,
+	urlcolor=blue}
+%\hypersetup
+%{
+%bookmarksopen=true,
+%pdftitle={Mon sujet de thèse complet},
+%pdfauthor={Prénom NOM},
+%pdfsubject={Rapport de thèse},
+%pdfmenubar=true,
+%pdfhighlight=/O,
+%colorlinks=true,
+%pdfpagelayout=SinglePage,
+%pdffitwindow=true,
+%linkcolor=linkcol,
+%citecolor=citecol,
+%urlcolor=linkcol
+%}
+
+% Headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[RE]{\bfseries\nouppercase{\leftmark}}
+\fancyhead[LO]{\bfseries\nouppercase{\rightmark}}
+\setlength{\headheight}{15pt}
+
+
+\let\headruleORIG\headrule
+\renewcommand{\headrule}{\color{black} \headruleORIG}
+\renewcommand{\headrulewidth}{1.0pt}
+\usepackage{colortbl}
+\arrayrulecolor{black}
+
+%\fancypagestyle{plain}{
+%  \fancyhead{}
+%  \fancyfoot[C]{\thepage}
+%  \renewcommand{\headrulewidth}{0pt}
+%}
+
+\usepackage[footnote]{acronym}
+
+% Mini table of content and acronyms
+\usepackage[nottoc, notlof, notlot]{tocbibind}
+\usepackage[english]{minitoc}
+\setcounter{minitocdepth}{3}
+\mtcindent=15pt
+\setlength{\parskip}{10pt}
+
+\let\minitocORIG\minitoc
+\renewcommand{\minitoc}{\minitocORIG \vspace{1.5em}}
+
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{2}
+\usepackage{silence}
+\usepackage{longtable,tabularx}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage[titletoc]{appendix}
+
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+\lstdefinelanguage{XML}
+{
+	basicstyle=\ttfamily\footnotesize,
+	morestring=[b]",
+	moredelim=[s][\bfseries\color{blue}]{<}{\ },
+	moredelim=[s][\bfseries\color{blue}]{</}{>},
+	moredelim=[l][\bfseries\color{blue}]{/>},
+	moredelim=[l][\bfseries\color{blue}]{>},
+	morecomment=[s]{<?}{?>},
+	morecomment=[s]{<!--}{-->},
+	commentstyle=\color{darkgreen},
+	stringstyle=\color{blue},
+	identifierstyle=\color{red}
+}
+
+\WarningFilter{minitoc(hints)}{W0023}
+\WarningFilter{minitoc(hints)}{W0024}
+\WarningFilter{minitoc(hints)}{W0028}
+\WarningFilter{minitoc(hints)}{W0030}
+
+\usepackage{siunitx}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+
+% References formatting
+% Bibtex
+% \renewcommand*{\backref}[1]{}
+% \renewcommand*{\backrefalt}[4]{%
+% \ifcase #1 %
+% (Non cité.)%
+% \or
+% (Cité en page~#2.)%
+% \else
+% (Cité en pages~#2.)%
+% \fi}
+% \renewcommand*{\backrefsep}{, }
+% \renewcommand*{\backreftwosep}{ et~}
+% \renewcommand*{\backreflastsep}{ et~}
+
+% BibLatex
+%\usepackage[sort]{natbib}
+\usepackage[style=alphabetic,backend=bibtex,isbn=false,doi=false,backref=false,url=true,maxbibnames=99]{biblatex}
+\addbibresource{biblio.bib}
+\inputencoding{utf8}
+
+% Pages succession
+%\usepackage{indentfirst}
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+  \hbox{}%
+  \thispagestyle{empty}%
+  \newpage%
+  \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+\newenvironment{vcenterpage}
+{\newpage\vspace*{\fill}\thispagestyle{empty}\renewcommand{\headrulewidth}{0pt}}
+{\vspace*{\fill}}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../phdthesis"
+%%% End: 
